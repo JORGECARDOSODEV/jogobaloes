@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 
-gitpage
+[gitpage](https://jorgecardosodev.github.io/jogobaloes/index.html)
 
 Estourando Balões é um jogo web Javascript desenvolvido no Curso de Desenvolvimento web da Udemy 2018, utilizando Html, CSS e Javascript. 
 Uso do getElementById que retorna um objeto através de um ID e do atributo InnerHTML, que insere conteúdo dentro das tags html.
