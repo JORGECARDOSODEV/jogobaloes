@@ -16,7 +16,9 @@ Nível difícil: 80 balões em 120 segundos
 
 
 ## Telas web
-![Web 1](https://github.com/acenelio/assets/raw/main/sds1/web1.png)
+![Web 1](https://github.com/JORGECARDOSODEV/jogobaloes/blob/main/indexbaloes.jpg)
+
+![Web 2](https://github.com/JORGECARDOSODEV/jogobaloes/blob/main/jogobaloes.jpg)
 
 # Tecnologias utilizadas
 Html, CSS e Javascript
