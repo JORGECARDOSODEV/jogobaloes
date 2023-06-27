@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+
+		<title>Estourando balões</title>
+
+		<script src="jogo.js"></script>
+
+	</head>
+
+	<body style="padding: 50px; padding-left: 100px; background-color: #76D581;" onload="iniciaJogo()"> 
+		<div style="float:left; width:auto; height:500px; background: #FFF; border: solid 1px #A2A2A2; margin-right: 5px;">
+			<table>
+				<tr>
+					<td>
+						<img src="imagens/balao_azul_grande.png" />
+					</td>
+					<td>
+						<span id="baloes_inteiros" style="font-size: 40px;"></span>
+					</td>
+				</tr>
+			</table>
+
+			<br />
+			<table>
+				<tr>
+					<td>
+						<img src="imagens/balao_azul_grande_estourado.png" />
+					</td>
+					<td>
+						<span id="baloes_estourados" style="font-size: 40px;"></span>
+					</td>
+				</tr>
+			</table>
+
+			<br />
+			<table style="width: 140px; height: 132px">
+				<tr>
+					<td style="background: url('imagens/cronometro.png'); text-align:center;">
+						<span id="cronometro" style="color: red; font-size: 30px;"></span>
+					</td>
+					
+				</tr>
+			</table>
+
+		</div>
+		<div id="cenario" style="float: left; width: 600px; height: 500px; background: url('imagens/cenario.png'); background-position: bottom;">
+			
+		</div>
+
+		<!- Regra do Jogo ->
+			<div style="float: left; width:200px; height:500px; background: #FFF; border: solid 1px #A2A2A2; margin-left:5px; padding: 3px; text-align:center;">
+				<h2>Regra do jogo</h2>
+				<p>Você deve estourar os balões no tempo determinado.</p>
+				<p>Nível fácil: 30 balões em 30 segundos.</p>
+				<p>Normal: 50 balões em 50 segundos.</p>
+				<p>Nível difícil: 80 balões em 120 segundos.</p>
+				<a href="index.html"><button style="background-color: #069cc2; border-radius: 6px; padding:15px; color:#fff; border:none; font-size:16px;">Voltar para o inicio</button></a>
+			</div>
+ 	</body>
+	
+</html>

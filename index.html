@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+
+		<title>Estourando balões</title>
+
+		<script language='Javascript'>	
+
+				function iniciaJogo(){
+					var nivel_jogo =  document.getElementById('nivel_jogo').value;
+
+				window.location.href = "jogo.html?"+nivel_jogo;	
+					
+				}
+
+		</script>
+	</head>
+
+	<body style="background-color: #add8e6">
+		<div style="margin: auto;justify-content: center; width:800px; height:600px; vertical-aling: text-bottom;background: url('imagens/estoureosbaloes.png')">
+			<div style="text-align: center; padding-top: 360px;">
+				<p>
+					<h4>Escolha o nível do jogo e aparte o play</h4>
+					<b>Nível:</b>
+						<select id="nivel_jogo">
+							<option value="3">Fácil</option>
+							<option value="2">Normal</option>
+							<option value="1">Difícil</option>
+						</select>
+				</p>
+					<br />
+					<img src="imagens/iniciar.png" onclick="iniciaJogo()" />
+			</div>
+		</div>
+	</body>
+	
+</html>
+
+<!- Jogo desenvolvido no Curso de Desenvolvimento WEB 2018 Udemy - Github: Jorgecardosodev ->
